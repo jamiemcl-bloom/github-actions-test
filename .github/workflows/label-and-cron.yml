@@ -1,0 +1,10 @@
+name: "Cron and Label"
+on:
+  schedule:
+    - cron: "*/2 * * * *"
+jobs:
+  CronAndLabel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Hello World"
+        run: echo "Hello World"
